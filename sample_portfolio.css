@@ -327,8 +327,29 @@ h2{
 #hire-me .button-container {
     text-align: center;
 }
+.email-button 
+{
+display: inline-block;
+background-color: white;
+padding: 10px 20px;
+color: #6a1b9a;
 
-.hire-me-button {
+text-decoration: none;
+
+border-radius: 5px;
+
+font-weight: bold;
+
+transition: background-color 0.3s ease;
+}
+
+
+.email-button:hover 
+{
+background-color: #9a93a4;
+}
+
+/* .hire-me-button {
     background-color: white;
     color: #6a1b9a;
     border: none;
@@ -343,7 +364,7 @@ h2{
 .hire-me-button:hover {
     background-color: #4a148c;
     color: white;
-}
+} */
 #blog{
     text-align: center;
     margin-top: 100px;
@@ -389,7 +410,7 @@ h2{
     margin-top: 150px;
     text-align: center;
 }
-#contact .contact-form {
+/* #contact .contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -410,7 +431,7 @@ h2{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
+} */
 .social-media{
     margin-top: 40px;
 }
