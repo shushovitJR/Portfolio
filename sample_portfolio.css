@@ -97,11 +97,27 @@ h2{
 }
 
 @media screen and (max-width: 700px){
-    header{
+    #nav{
+        background-color: #6a1b9a;
+    }
+    .contents{
+        margin: 0px 0px 0px 0px;
+        background-color: #6a1b9a;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 60px;
+        gap: 0;
+
+    }
+    .contents a{
+        padding: 0;
         
-        
-    };
+    }
     .symbols{
         position: absolute;
         top: 0;
@@ -115,15 +131,15 @@ h2{
 }
 
 .affix-top{
-    background-color:rgb(199, 199, 199);
+    background-color: #695aa6;
     transition:  ease-in-out .5s;
-    /* height: 4rem; */
+    height: 4rem;
 }
 
 .affix{
     height: 5rem;
     /* z-index: 10; */
-    background-color: transparent;   
+    background-color: #6a1b9a;   
     transition: all ease-in-out .5s;
 }
 #intro{
