@@ -8,6 +8,29 @@ function closeFunction(){
     document.querySelector(".cross").style.display = "none";
     document.querySelector(".ham").style.display = "inline-block  ";
 }
+function toggleTextVideo(){
+    document.querySelector(".video-text").style.display = "inline-block";
+}
+function toggleTextDesign(){
+    document.querySelector(".design-text").style.display = "inline-block";
+}
+function toggleTextPs(){
+    document.querySelector(".ps-text").style.display = "inline-block";
+}
+function toggleLeave(){
+  document.querySelector(".ps-text").style.display = "none";
+  document.querySelector(".video-text").style.display = "none";
+  document.querySelector(".design-text").style.display = "none";
+}
+function toggleYT(){
+  window.location.href="https://shushovitjr.github.io/Youtube-Clone/";
+}
+function toggleJS(){
+  window.location.href="https://shushovitjr.github.io/JSprograms-git/";
+}
+function toggleAmazon(){
+  window.location.href="Users/Asus/Documents/javascript-amazon-Project/amazon.html";
+}
 
 const navbar = document.getElementById("nav");
 window.onscroll = function() {scrollFunction()};

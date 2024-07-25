@@ -50,30 +50,33 @@
 
 <section id="projects">
         <h2>Projects</h2>
-    <div class="project-card" id="youtube">
-        <div class="project-card-top">
-            <img src="./img,files/youtube-brands-solid.svg" alt="failed">
+        <div class="project">
+            <div class="project-card" id="youtube" onclick="toggleYT()">
+                <div class="project-card-top">
+                    <img src="./img,files/youtube-brands-solid.svg" alt="failed">
+                </div>
+                <div class="project-card-bottom">
+                    <h2>Youtube-Clone</h2>
+                </div>
+            </div>
+            <div class="project-card" id="amazon" onclick="toggleAmazon()">
+                <div class="project-card-top">
+                    <img src="./img,files/amazon-brands-solid.svg" alt="">
+                </div>
+                <div class="project-card-bottom">
+                    <h2>Amazon Clone</h2>
+                </div>
+            </div>
+            <div class="project-card" id="js" onclick="toggleJS()">
+                <div class="project-card-top">
+                    <img src="./img,files/js-brands-solid.svg" alt="">
+                </div>
+                <div class="project-card-bottom">
+                    <h2>JS Programs</h2>
+                </div>
+            </div>
         </div>
-        <div class="project-card-bottom">
-            <a href="https://shushovitjr.github.io/Youtube-Clone/">Youtube Clone</a>
-        </div>
-    </div>
-    <div class="project-card" id="amazon">
-        <div class="project-card-top">
-            <img src="./img,files/amazon-brands-solid.svg" alt="">
-        </div>
-        <div class="project-card-bottom">
-            <a href="Users/Asus/Documents/javascript-amazon-Project/amazon.html">Amazon Clone</a>
-        </div>
-    </div>
-    <div class="project-card" id="js">
-        <div class="project-card-top">
-            <img src="./img,files/js-brands-solid.svg" alt="">
-        </div>
-        <div class="project-card-bottom">
-            <a href="https://shushovitjr.github.io/JSprograms-git/">JS Programs</a>
-        </div>
-    </div>
+   
 </section>
 
 <section id="service">
@@ -84,23 +87,23 @@
         color: #695aa6; margin: 0;">Service</h6>
     </div>
     <div class="services-box">
-        <div class="services">
+        <div class="services" onmouseover="toggleTextVideo()" onmouseleave="toggleLeave()">
             <div class="service-logo">
                 <img src="/img,files/video-solid.svg" alt="">
                 
             </div>
             <div class="service-name">Video Editing</div>
-            <div class="service-detail">Expert at video editing. Attractive and Entertaining edits. High level quality of animations</div>
+            <div class="service-detail video-text">Expert at video editing. Attractive and Entertaining edits. High level quality of animations</div>
         </div>
-        <div class="services">
-            <div class="service-logo"><img src="/img,files/paintbrush-solid.svg" alt=""></div>
+        <div class="services" onmouseover="toggleTextDesign()" onmouseleave="toggleLeave()">
+            <div class="service-logo"><img src="/img,files/palette-solid.svg" alt=""></div>
             <div class="service-name">Design</div>
-            <div class="service-detail">Professional design attractive and Mesmerizing look to your product.</div>
+            <div class="service-detail design-text">Professional design attractive and Mesmerizing look to your product.</div>
         </div>
-        <div class="services">
+        <div class="services" onmouseover="toggleTextPs()" onmouseleave="toggleLeave()">
             <div class="service-logo"><img src="/img,files/paintbrush-solid.svg" alt=""></div>
             <div class="service-name">Photoshop</div>
-            <div class="service-detail">Expert at Photoshop skills. Make attractive advertisements, design, and high quality images</div>
+            <div class="service-detail ps-text">Expert at Photoshop skills. Make attractive advertisements, design, and high quality images</div>
         </div>
         
     </div>
