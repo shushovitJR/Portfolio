@@ -15,6 +15,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="../css/sample_portfolio.css">
+    <script src="../js/sample_portfolio.js"></script>
 </head>
 <style>
     .contact-form {
@@ -42,6 +44,9 @@ input,textarea {
 }
 </style>
 <body>
+<header id="nav" class="affix">
+    <a href="../index.html"><div class="logo"><img src="../img,files/sjr-high-resolution-logo-transparent.png" alt="image not found"></div></a>
+ </header>
 <div class="contact-form">
         <form action="portfolio.php" method="post">
         <input type="text" placeholder="Your Name" id="name" name="your_name">
