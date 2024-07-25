@@ -9,7 +9,7 @@ function closeFunction(){
     document.querySelector(".ham").style.display = "inline-block  ";
 }
 
-const navbar = document.getElementById("nav")
+const navbar = document.getElementById("nav");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
