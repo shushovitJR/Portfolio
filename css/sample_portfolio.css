@@ -166,6 +166,9 @@ font-weight: bold;
 
 transition: background-color 0.3s ease;
 }
+#intro a:hover{
+    background-color: #695aa6;
+}
 @media screen and (max-width:450px){
     #intro{
         padding: 0;
@@ -175,6 +178,8 @@ transition: background-color 0.3s ease;
     width: 20rem;
     height: 300px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: 100% 10%;
 }
 #aboutMe{
     display: flex;
