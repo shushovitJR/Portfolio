@@ -409,10 +409,6 @@ background-color: #9a93a4;
 #blog a:hover {
     text-decoration: underline;
 }
-#contact{
-    margin-top: 150px;
-    text-align: center;
-}
 @media screen and (max-width:700px){
     .blog-content{
         font-size: 0.8em;
@@ -428,6 +424,10 @@ background-color: #9a93a4;
     #blog img{
         width: 100%;
     }
+}
+#contact{
+    margin-top: 150px;
+    text-align: center;
 }
 .social-media{
     margin-top: 40px;

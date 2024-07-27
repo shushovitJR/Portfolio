@@ -9,52 +9,20 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 100px;
   }
 
-  .weather-top , #elements{
+  #elements{
     display: flex;
     flex-direction: row;
   }
   #elements{
     gap: 2vw;
   }
-  #id {
-    width: 200px;
-    text-align: center;
-    background: rgba(256, 256, 256, 0.75);
-    border-radius: 30px;
-  }
-   .weather-btn{
-    background-color: white;
-color: #6a1b9a;
-
-text-decoration: none;
-
-font-weight: bold;
-
-transition: background-color 0.3s ease;
-    padding: 0;
-    border-radius: 0;
-    height:30px ;
-    width: 60px;
-    transform: translateY(+10px);
-   }
-
-
 .weather-btn:hover 
 {
 background-color: #9a93a4;
 }
-  input {
-    border: 1px solid black;
-    margin: 10px auto;
-    width: 200px;
-    height: 30px;
-    text-align: center;
-    font-size: 25px;
-    padding: 5px;
-    background-color: transparent;
-  }
   #loc {
     font-weight: bolder;
   }
