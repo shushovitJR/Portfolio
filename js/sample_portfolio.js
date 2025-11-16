@@ -29,7 +29,7 @@ function toggleJS(){
   window.location.href="https://shushovitjr.github.io/JSprograms-git/";
 }
 function toggleAmazon(){
-  window.location.href="Users/Asus/Documents/javascript-amazon-Project/amazon.html";
+  window.location.href="https://hamrocinemamern.vercel.app/";
 }
 
 const navbar = document.getElementById("nav");
