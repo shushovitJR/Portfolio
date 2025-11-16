@@ -200,6 +200,104 @@ transition: background-color 0.3s ease;
         padding: 0;
     }
 }
+
+#skillsEducation {
+    margin-top: 100px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.skills-education-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills-section h2,
+.education-section h2 {
+    color: #695aa6;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.skill-item {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(106, 27, 154, 0.3);
+    margin: 5px;
+}
+
+.skill-item:hover {
+    background-color: #695aa6;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(106, 27, 154, 0.6);
+}
+
+
+.education-section {
+    text-align: left;
+}
+
+.education-item {
+    margin-bottom: 25px;
+    padding: 20px;
+    border-left: 4px solid #6a1b9a;
+    background-color: #6a1b9a;
+    border-radius: 5px;
+}
+
+.education-item h3 {
+    color: white;
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+}
+
+.education-school {
+    color: white;
+    margin: 0;
+    font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+    .skills-education-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .education-section {
+        text-align: center;
+    }
+    
+    .education-item {
+        border-left: none;
+        border-top: 4px solid #6a1b9a;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 #projects{
     display: flex;
     flex-direction: column;
@@ -219,11 +317,18 @@ transition: background-color 0.3s ease;
     border: 1px solid black;
     height: 255px;
     width: 230px;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px;
 }
-.project-card:hover{
-    border: 5px solid #6a1b9a;
+.project-card:hover {
+    outline: 4px solid #6a1b9a;
+    outline-offset: -4px;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(106, 27, 154, 0.6);
 }
+
 .project-card img{
     height: 55px;
     width: 55px;
@@ -281,11 +386,17 @@ transition: background-color 0.3s ease;
     border-radius: 3px;
     justify-content: space-evenly;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px;
 }
-.services:hover{
-    border: 5px solid #6a1b9a;
+.services:hover {
+    outline: 4px solid #6a1b9a;
+    outline-offset: -4px;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(106, 27, 154, 0.6);
 }
+
 .services img{
     height: 55px;
     width: 55px;
@@ -368,65 +479,9 @@ transition: background-color 0.3s ease;
 {
 background-color: #9a93a4;
 }
-#blog{
-    text-align: center;
-    margin-top: 100px;
-}
-#blog .blog-post {
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-    border: 1px solid gray;
-}
 
-#blog .image-placeholder {
-    width: 200px;
-    /* height: 200px; */
-    background-color: #b39ddb;
-    margin-right: 20px;
-}
-#blog img{
-    height: 100%;
-    width: 230px;
-}
-#blog .blog-content {
-    flex: 1;
-}
-
-#blog h2 {
-    color: #6a1b9a;
-}
-
-#blog p {
-    margin: 10px 0;
-}
-
-#blog a {
-    color: #6a1b9a;
-    text-decoration: none;
-}
-
-#blog a:hover {
-    text-decoration: underline;
-}
-@media screen and (max-width:700px){
-    .blog-content{
-        font-size: 0.8em;
-    }
-    #blog img{
-        width: 200px;
-    }
-}
-@media screen and (max-width:450px){
-    .blog-content{
-        font-size: 0.1em;
-    }
-    #blog img{
-        width: 100%;
-    }
-}
 #contact{
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
 }
 #contact-btn{
