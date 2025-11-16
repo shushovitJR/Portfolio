@@ -23,7 +23,7 @@ function toggleLeave(){
   document.querySelector(".design-text").style.display = "none";
 }
 function toggleYT(){
-  window.location.href="https://shushovitjr.github.io/Youtube-Clone/";
+  window.location.href="https://shushovitjr.github.io/Youtube-Clone-Frontend-/";
 }
 function toggleJS(){
   window.location.href="https://shushovitjr.github.io/JSprograms-git/";
